@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:\Users\Narcis\Documents\androidprojects\LiveReminder-develop-6d8ce8afe9ec3f0ad4b3089617f6d6cdc14a9e2b\Life.iml" filepath="C:\Users\Narcis\Documents\androidprojects\LiveReminder-develop-6d8ce8afe9ec3f0ad4b3089617f6d6cdc14a9e2b\Life.iml" />
+      <module fileurl="file://C:\Users\Narcis\Documents\androidprojects\ovidiu-develop\Life.iml" filepath="C:\Users\Narcis\Documents\androidprojects\ovidiu-develop\Life.iml" />
+      <module fileurl="file://C:\Users\Narcis\Documents\androidprojects\ovidiu-develop\LiveReminder-develop-6d8ce8afe9ec3f0ad4b3089617f6d6cdc14a9e2b.iml" filepath="C:\Users\Narcis\Documents\androidprojects\ovidiu-develop\LiveReminder-develop-6d8ce8afe9ec3f0ad4b3089617f6d6cdc14a9e2b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ovidiu-develop.iml" filepath="$PROJECT_DIR$/ovidiu-develop.iml" />
+    </modules>
+  </component>
+</project>

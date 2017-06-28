@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundalverde"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/linear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/titlu" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/buttoncancel"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_close_white_32dp_1x" />
+
+
+    <ImageView
+        android:id="@+id/butonright"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+       android:layout_toLeftOf="@id/buttoncancel"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/rarrow" />
+
+    <ImageView
+        android:id="@+id/butonleft"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_toLeftOf="@id/butonright"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/larrow" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear1"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

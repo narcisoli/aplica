@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="SearchView">
+        <item name="floatingSearch_backgroundColor">@color/fundalverde</item>
+        <item name="floatingSearch_viewSearchInputTextColor">@color/white</item>
+        <item name="floatingSearch_viewSuggestionItemTextColor">@color/white</item>
+        <item name="floatingSearch_hintTextColor">@color/white</item>
+        <item name="floatingSearch_dividerColor">@color/fundalverde</item>
+        <item name="floatingSearch_clearBtnColor">@color/white</item>
+        <item name="floatingSearch_leftActionColor">@color/white</item>
+        <item name="floatingSearch_menuItemIconColor">@color/white</item>
+        <item name="floatingSearch_suggestionRightIconColor">@color/white</item>
+        <item name="floatingSearch_actionMenuOverflowColor">@color/fundalverde</item>
+    </style>
+
+</resources>

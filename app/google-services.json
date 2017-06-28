@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "963733521073",
+    "firebase_url": "https://lifereminder-46f54.firebaseio.com",
+    "project_id": "lifereminder-46f54",
+    "storage_bucket": "lifereminder-46f54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963733521073:android:d50a0a5d14d27958",
+        "android_client_info": {
+          "package_name": "com.example.intern06.lifereminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963733521073-sh4hrieur2hu7ergu0va0nqun9j5t0j0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.intern06.lifereminder",
+            "certificate_hash": "f66872273a2e0e22a56acf68714b96136aae2cca"
+          }
+        },
+        {
+          "client_id": "963733521073-aj8ffuaclqr7prgo26qbs37nip5hdj15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJvejwpmQYtsCbDnMYMbQSWRGPDQrH66U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963733521073-aj8ffuaclqr7prgo26qbs37nip5hdj15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

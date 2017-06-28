@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    android:background="@color/white"
+    tools:context="com.example.intern06.lifereminder.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/barasus"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/fundalverde">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/hamburger"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/set"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            />
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/sort"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/gridof"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@id/hamburger"
+            android:layout_toLeftOf="@id/sort"
+            android:layout_height="wrap_content">
+        <android.support.v7.widget.SearchView
+            android:id="@+id/search_view"
+            app:searchIcon="@drawable/ic_action_search_white"
+            android:layout_alignParentRight="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/container"
+        android:layout_below="@id/barasus"
+        android:layout_height="match_parent">
+
+
+
+
+        <com.etsy.android.grid.StaggeredGridView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:column_count="2"
+            android:id="@+id/listareminder">
+        </com.etsy.android.grid.StaggeredGridView>
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            app:fab_colorNormal="@color/fundalverde"
+            app:fab_size="normal"
+            android:id="@+id/fabreminder"
+            app:fab_colorRipple="@color/black"
+            app:fab_shadowColor="@color/black"
+            app:fab_showShadow="true"
+            android:src="@drawable/fab_add"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+</RelativeLayout>

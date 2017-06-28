@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/barasus2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/fundalverde">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/menu2"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/set"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/barasus2"
+        android:id="@+id/containerprofil"
+        android:layout_height="match_parent">
+    </RelativeLayout>
+</RelativeLayout>

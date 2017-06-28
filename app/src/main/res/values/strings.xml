@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Life Reminderr</string>
+    <string name="facebook_app_id">1779312049048910</string>
+    <string name="fb_login_protocol_scheme">fb1779312049048910</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
